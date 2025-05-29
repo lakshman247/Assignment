@@ -1,0 +1,365 @@
+{
+    "bikes":[
+  {
+    "id": 1,
+    "company": "Honda",
+    "engineCC": 125,
+    "priceINR": 82000,
+    "year": 2025,
+    "color": "Red",
+    "mileage": "55 kmpl"
+  },
+  {
+    "id": 2,
+    "company": "TVS",
+    "engineCC": 110,
+    "priceINR": 75000,
+    "year": 2025,
+    "color": "Blue",
+    "mileage": "60 kmpl"
+  },
+  {
+    "id": 3,
+    "company": "Suzuki",
+    "engineCC": 125,
+    "priceINR": 87000,
+    "year": 2024,
+    "color": "Black",
+    "mileage": "58 kmpl"
+  },
+  {
+    "id": 4,
+    "company": "Hero",
+    "engineCC": 100,
+    "priceINR": 69000,
+    "year": 2025,
+    "color": "Silver",
+    "mileage": "70 kmpl"
+  },
+  {
+    "id": 5,
+    "company": "Yamaha",
+    "engineCC": 150,
+    "priceINR": 98000,
+    "year": 2024,
+    "color": "Red",
+    "mileage": "50 kmpl"
+  },
+  {
+    "id": 6,
+    "company": "Bajaj",
+    "engineCC": 160,
+    "priceINR": 96000,
+    "year": 2024,
+    "color": "Grey",
+    "mileage": "52 kmpl"
+  },
+  {
+    "id": 7,
+    "company": "Royal Enfield",
+    "engineCC": 350,
+    "priceINR": 185000,
+    "year": 2024,
+    "color": "Black",
+    "mileage": "35 kmpl"
+  },
+  {
+    "id": 8,
+    "company": "KTM",
+    "engineCC": 200,
+    "priceINR": 210000,
+    "year": 2024,
+    "color": "Orange",
+    "mileage": "32 kmpl"
+  },
+  {
+    "id": 9,
+    "company": "Honda",
+    "engineCC": 160,
+    "priceINR": 105000,
+    "year": 2024,
+    "color": "White",
+    "mileage": "50 kmpl"
+  },
+  {
+    "id": 10,
+    "company": "TVS",
+    "engineCC": 125,
+    "priceINR": 82000,
+    "year": 2024,
+    "color": "Blue",
+    "mileage": "58 kmpl"
+  },
+  {
+    "id": 11,
+    "company": "Suzuki",
+    "engineCC": 150,
+    "priceINR": 94000,
+    "year": 2024,
+    "color": "Grey",
+    "mileage": "53 kmpl"
+  },
+  {
+    "id": 12,
+    "company": "Hero",
+    "engineCC": 110,
+    "priceINR": 72000,
+    "year": 2024,
+    "color": "Blue",
+    "mileage": "65 kmpl"
+  },
+  {
+    "id": 13,
+    "company": "Bajaj",
+    "engineCC": 125,
+    "priceINR": 83000,
+    "year": 2024,
+    "color": "Black",
+    "mileage": "54 kmpl"
+  },
+  {
+    "id": 14,
+    "company": "Yamaha",
+    "engineCC": 125,
+    "priceINR": 87000,
+    "year": 2022,
+    "color": "Red",
+    "mileage": "56 kmpl"
+  },
+  {
+    "id": 15,
+    "company": "Royal Enfield",
+    "engineCC": 411,
+    "priceINR": 220000,
+    "year": 2024,
+    "color": "Green",
+    "mileage": "30 kmpl"
+  },
+  {
+    "id": 16,
+    "company": "KTM",
+    "engineCC": 250,
+    "priceINR": 230000,
+    "year": 2024,
+    "color": "White",
+    "mileage": "28 kmpl"
+  },
+  {
+    "id": 17,
+    "company": "Honda",
+    "engineCC": 100,
+    "priceINR": 68000,
+    "year": 2024,
+    "color": "Silver",
+    "mileage": "72 kmpl"
+  },
+  {
+    "id": 18,
+    "company": "TVS",
+    "engineCC": 160,
+    "priceINR": 99000,
+    "year": 2022,
+    "color": "Yellow",
+    "mileage": "49 kmpl"
+  },
+  {
+    "id": 19,
+    "company": "Suzuki",
+    "engineCC": 155,
+    "priceINR": 95000,
+    "year": 2024,
+    "color": "Black",
+    "mileage": "51 kmpl"
+  },
+  {
+    "id": 20,
+    "company": "Hero",
+    "engineCC": 125,
+    "priceINR": 81000,
+    "year": 2024,
+    "color": "Blue",
+    "mileage": "66 kmpl"
+  },
+  {
+    "id": 21,
+    "company": "Bajaj",
+    "engineCC": 180,
+    "priceINR": 102000,
+    "year": 2024,
+    "color": "Red",
+    "mileage": "48 kmpl"
+  },
+  {
+    "id": 22,
+    "company": "Yamaha",
+    "engineCC": 155,
+    "priceINR": 112000,
+    "year": 2022,
+    "color": "Black",
+    "mileage": "47 kmpl"
+  },
+  {
+    "id": 23,
+    "company": "Royal Enfield",
+    "engineCC": 500,
+    "priceINR": 250000,
+    "year": 2024,
+    "color": "Maroon",
+    "mileage": "28 kmpl"
+  },
+  {
+    "id": 24,
+    "company": "KTM",
+    "engineCC": 390,
+    "priceINR": 290000,
+    "year": 2024,
+    "color": "Orange",
+    "mileage": "27 kmpl"
+  },
+  {
+    "id": 25,
+    "company": "Honda",
+    "engineCC": 110,
+    "priceINR": 73000,
+    "year": 2024,
+    "color": "Blue",
+    "mileage": "64 kmpl"
+  },
+  {
+    "id": 26,
+    "company": "TVS",
+    "engineCC": 180,
+    "priceINR": 105000,
+    "year": 2024,
+    "color": "Green",
+    "mileage": "46 kmpl"
+  },
+  {
+    "id": 27,
+    "company": "Suzuki",
+    "engineCC": 110,
+    "priceINR": 72000,
+    "year": 2024,
+    "color": "White",
+    "mileage": "62 kmpl"
+  },
+  {
+    "id": 28,
+    "company": "Hero",
+    "engineCC": 150,
+    "priceINR": 88000,
+    "year": 2024,
+    "color": "Black",
+    "mileage": "60 kmpl"
+  },
+  {
+    "id": 29,
+    "company": "Bajaj",
+    "engineCC": 125,
+    "priceINR": 85000,
+    "year": 2022,
+    "color": "Blue",
+    "mileage": "53 kmpl"
+  },
+  {
+    "id": 30,
+    "company": "Yamaha",
+    "engineCC": 100,
+    "priceINR": 69000,
+    "year": 2024,
+    "color": "Grey",
+    "mileage": "68 kmpl"
+  },
+  {
+    "id": 31,
+    "company": "Royal Enfield",
+    "engineCC": 650,
+    "priceINR": 310000,
+    "year": 2024,
+    "color": "Silver",
+    "mileage": "25 kmpl"
+  },
+  {
+    "id": 32,
+    "company": "KTM",
+    "engineCC": 125,
+    "priceINR": 160000,
+    "year": 2024,
+    "color": "White",
+    "mileage": "35 kmpl"
+  },
+  {
+    "id": 33,
+    "company": "Honda",
+    "engineCC": 150,
+    "priceINR": 99000,
+    "year": 2024,
+    "color": "Red",
+    "mileage": "52 kmpl"
+  },
+  {
+    "id": 34,
+    "company": "TVS",
+    "engineCC": 110,
+    "priceINR": 71000,
+    "year": 2024,
+    "color": "Black",
+    "mileage": "63 kmpl"
+  },
+  {
+    "id": 35,
+    "company": "Suzuki",
+    "engineCC": 125,
+    "priceINR": 86000,
+    "year": 2024,
+    "color": "Blue",
+    "mileage": "59 kmpl"
+  },
+  {
+    "id": 36,
+    "company": "Hero",
+    "engineCC": 110,
+    "priceINR": 70000,
+    "year": 2024,
+    "color": "Red",
+    "mileage": "67 kmpl"
+  },
+  {
+    "id": 37,
+    "company": "Bajaj",
+    "engineCC": 150,
+    "priceINR": 92000,
+    "year": 2024,
+    "color": "Yellow",
+    "mileage": "50 kmpl"
+  },
+  {
+    "id": 38,
+    "company": "Yamaha",
+    "engineCC": 125,
+    "priceINR": 86000,
+    "year": 2024,
+    "color": "White",
+    "mileage": "55 kmpl"
+  },
+  {
+    "id": 39,
+    "company": "Royal Enfield",
+    "engineCC": 350,
+    "priceINR": 195000,
+    "year": 2024,
+    "color": "Black",
+    "mileage": "36 kmpl"
+  },
+  {
+    "id": 40,
+    "company": "KTM",
+    "engineCC": 200,
+    "priceINR": 215000,
+    "year": 2024,
+    "color": "Orange",
+    "mileage": "33 kmpl"
+  }
+
+]
+}
