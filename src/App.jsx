@@ -58,9 +58,7 @@ function App() {
     // get the mileage
     const mileageMatch = searchInput.match(/(\d+)\s*mileage|mileage.*?(\d+)/i);
     if (mileageMatch) filters.maxMileage = parseInt(mileageMatch[1], 10);
-debugger
     // get manufacture year
-  // Match all years like 2022, 2023, 2024
     const allYearMatches = searchInput.match(/\b(19|20)\d{2}\b/g);
     if (allYearMatches && allYearMatches.length > 0) {
       filters.manufactureYears = allYearMatches.map(y => parseInt(y, 10));
@@ -68,15 +66,14 @@ debugger
       filters.manufactureYears = [new Date().getFullYear()];
     }
 
-    // get company name
-    const knownCompanies = ["Honda", "Yamaha", "Suzuki", "Hero", "Bajaj", "TVS"];
-    for (const brand of knownCompanies) {
-      const companyRegex = new RegExp(`\\b${brand}\\b`, "i");
-      if (companyRegex.test(searchInput)) {
-        filters.company = brand.toLowerCase();
-        break;
-      }
-    }
+    // get company names
+    const knownCompanies = ["Honda", "Yamaha", "Suzuki", "Hero", "Bajaj", "TVS", "KTM", "Royal Enfield"];
+    const companyMatches = knownCompanies.filter(brand =>
+      new RegExp(`\\b${brand}\\b`, "i").test(searchInput)
+    );
+if (companyMatches.length > 0) {
+  filters.companies = companyMatches.map(c => c.toLowerCase());
+}
 
     const ccMatch = searchInput.match(/(\d+)\s*cc|cc.*?(\d+)/i);
 if (ccMatch) {
@@ -93,7 +90,7 @@ const hasValidFilters =
   filters.colors ||
   filters.maxMileage !== undefined ||
   filters.manufactureYears ||
-  filters.company || filters.engineCC || filters.priceINR
+  filters.companies || filters.engineCC || filters.priceINR
 
 if (!hasValidFilters) {
   setFilteredData([]);
@@ -120,9 +117,9 @@ if (!hasValidFilters) {
      if (filters?.manufactureYears) {
         match = match && filters.manufactureYears.includes(bike.year);
       }
-            if (filters?.company) {
-        match = match && bike.company.toLowerCase() === filters.company;
-      }
+     if (filters.companies) {
+          match = match && filters.companies.includes(bike.company.toLowerCase());
+        }
         if (filters.engineCC !== undefined) {
           match = match && bike.engineCC === filters.engineCC;
         }
@@ -162,7 +159,7 @@ if (!hasValidFilters) {
         />
         <div className='flex gap-4'>
             <Button variant="contained" onClick={makeApiCall}>
-              {isSpinner ? 'Understanding....' : 'Submit'}
+              {isSpinner ? 'analyzing....' : 'Submit'}
               {isSpinner ? <CircularProgress color="inherit" size="25px" /> : ''}
             </Button>
 
@@ -177,7 +174,7 @@ if (!hasValidFilters) {
           autoHideDuration={4000}
           open={isOpen}
           onClose={handleClose}
-          message={filteredData?.length ? 'Successfully fetched data' : 'No matching data'}
+          message={filteredData?.length ? 'Data fetched successfully' : 'No matching data'}
         />
       </div>
 
